@@ -8,6 +8,4 @@ files = jmake.glob('glm', ['**/*.hpp', '**/*.h', '**/*.inl'])
 glm.add(jmake.fullpath(files))
 
 glm.export(includes=jmake.fullpath('glm'))
-
 workspace.add(glm)
-jmake.generate(workspace)
